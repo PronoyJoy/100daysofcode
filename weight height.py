@@ -6,4 +6,7 @@ weight = float(input("enter your weight in kg: "))
 #Write your code below this line 👇
 
 BMI = weight / height**2
+#u can use round method
 print(int(BMI))
+print(round(BMI,2))
+# u can use flow division using '//' which makes int
