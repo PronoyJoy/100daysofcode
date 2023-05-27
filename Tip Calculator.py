@@ -11,4 +11,4 @@ bill += tip
 
 total = bill /people
 
-print('each person should pay: $',round(total,2))
+print('each person should pay: $',round(total,2)),
