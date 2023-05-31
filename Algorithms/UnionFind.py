@@ -19,14 +19,17 @@ if __name__ == '__main__':
     uf = UnionFind(5)
 
     # Initial disjoint sets: {0}, {1}, {2}, {3}, {4}
-
-    # Perform union operations
-    uf.union(0, 2)
+    # User Ids 
+    # Make Friends
+    #  
+    uf.union(0, 2) #using it as object 
     uf.union(4, 1)
     uf.union(3, 1)
 
     # After union operations: {0, 2}, {1, 3, 4}
 
+    #now find friendship
+    
     print(uf.find(0))  # Output: 2
     print(uf.find(4))  # Output: 2
     print(uf.find(3))  # Output: 2
